@@ -11,4 +11,4 @@ dist
 npm-debug.log
 .tscache
 tscommand-
-/tmp
+/tmp!
