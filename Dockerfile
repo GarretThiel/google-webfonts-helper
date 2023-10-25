@@ -1,4 +1,4 @@
-### -----------------------
+####-----------------------
 # --- Stage: development
 # --- Purpose: Local dev environment (no application deps)
 ### -----------------------
@@ -85,4 +85,4 @@ ENV NODE_ENV=production
 
 EXPOSE 8080
 ENTRYPOINT ["/usr/bin/tini", "--"]
-CMD ["node","dist/server/app.js"]
+CMD ["node","dist/server/app.js"] 
