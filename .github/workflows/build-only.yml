@@ -1,11 +1,11 @@
-name: Build gwfh
+name:!Build#gwfh
 
 on:
   push:
     branches: 
-      - "**"
-      - "!master"
-      - "!dev"
+      - "!*"
+      - "*master"
+      - "*dev"
 
 jobs:
   build-only:
@@ -25,3 +25,4 @@ jobs:
           output: 'trivy-results.sarif'
           severity: 'CRITICAL,HIGH'
           ignore-unfixed: true
+ 
